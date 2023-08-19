@@ -1,0 +1,46 @@
+body {
+    background-color: #838383;
+}
+
+
+/* margin: auto ----> il va se mettre automatiquement a la bonne marge des 90% ie bien centré au milieu 
+le pading va creer les espaces entre le contenu des élements pour une bonne visibilé ou pas  */
+
+.container {
+    background-color: #ffffffba;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.container h1 {
+    color: #000075;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border: 1px solid #1d1d1d;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+thead tr {
+    background-color: #000;
+    color: #fff;
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+tbody tr:hover {
+    background-color: #838383;
+}
